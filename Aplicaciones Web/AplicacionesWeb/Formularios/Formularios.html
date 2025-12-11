@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="PepeLlopis">
+        <meta name="description" content="APW 2n curs">
+        <title>UT-2 HTML | Formularios</title>
+    </head>
+    <body>
+        <h1>Formularis i Etiquetes</h1>
+        <form action="preguntaNom" method="post">
+            <p> El teu nom: </p>
+            <input type="text" name="nom"><br>
+            <p>Sexo:</p>
+            <input type="radio" id="sexo_m" name="sexo" value="m">
+            <label for="sexo_m">Masculino</label>
+            <input type="radio" id="sexo_f" name="sexo" value="f">
+            <label for="sexo_f">Femenino</label>
+            <br>
+            <input type="checkbox" id="suscribir" name="suscribir" value="si">
+            <label for="suscribir">Suscribirme al boletín</label>
+            <br>
+            <p>Contraseña:</p>
+            <input type="password" name="password" id="password"><br>
+        
+            <p>Edad:</p>
+        <select name="edad" size="3">
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+        </select>
+        </form>
+        <button type="submit">Enviar</button>
+        
+    </body>
+</html>

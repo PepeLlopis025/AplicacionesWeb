@@ -1,0 +1,25 @@
+body {
+    font-family: ./gluten, sans-serif;
+    background-color: #B6EEF0;
+    font-weight: 400;
+    font-size: 12px;
+    line-length: 1.2;
+}
+
+h1, {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #0728F6;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #1E90FF;
+}
+
+h3, {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #6272D6;
+}

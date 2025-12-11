@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Prova Java</title>
+    </head>
+    <body>
+        <h1>Benvenuti alla Prova Java</h1>
+        <p>Questa è una semplice pagina HTML per testare l'integrazione con Java.</p>
+                        <!--    Esto te calcula la edad
+                        <script>
+                            var nome = prompt("Come ti chiami?");
+                            let eta = prompt("Scrivi il tuo anno di nascita") ;
+                            eta = Number(eta)
+                            let currentYear = 2025;
+                            let nascrita = currentYear - eta;
+                            alert(nome + "la tua età è: " + nascrita);
+                        </script>
+                        -->
+                        <!--    Esta es la calculadora
+
+                        <script>
+                            let entregato = false;
+                            var numA = prompt("Inserisci il numero:");
+                            var num1 = Number(numA);
+                            var operazione = prompt("Che operazione vuoi fare? (+, -, *, /)");
+                            var numB = prompt("Inserisci il numero:");
+                            var num2 = Number(numB);
+                            if (operazione === "+") {
+                                var risultato = num1 + num2;
+                                alert("Il risultato è: " + risultato);
+                                entregato = true;
+                            } else if (operazione === "-") {
+                                var risultato = num1 - num2;
+                                alert("Il risultato è: " + risultato);
+                                entregato = true;
+                            } else if (operazione === "*") {
+                                var risultato = num1 * num2;
+                                alert("Il risultato è: " + risultato);
+                                entregato = true;
+                            } else if (operazione === "/") {
+                                if (num2 === 0) {
+                                    alert("Errore: Divisione per zero non consentita.");
+                                } else {
+                                    var risultato = num1 / num2;
+                                    alert("Il risultato è: " + risultato);
+                                    entregato = true;
+                                }
+                            } else {
+                                alert("Operazione non valida.");
+                            }
+                        </script>
+                        -->
+        <script>
+            var i = 0;
+            alert("Vostre avez 3 intertentativi per accedere al sistema.");
+            while (i < 3) {
+                let username = prompt("Inserisci il tuo nome utente:");
+                let password = prompt("Inserisci la tua password:");
+                if (username === "admin" && password== "1234") {
+                    alert("Accesso consentito. Benvenuto, " + username);
+                    break;
+                }
+                else if (username === "admin") {
+                    alert("Accesso negato. Nome utente errati.");
+                }
+                else if (password === "1234") {
+                    alert("Accesso negato. Password errata.");
+                }
+                else {
+                    alert("Accesso negato. Nome utente e password errati.");
+                }
+                var i = i + 1;
+            }
+        </script>
+        <script>
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,191 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(33, 62, 121);
+  padding: 10px 20px;
+}
+
+.logo-titol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.titul {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.menu-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+body {
+  background-color: #e7feff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 15px;
+}
+
+h2 {
+  color: rgb(33, 62, 121);
+  margin: 0;
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.equipament {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.equipament-1,
+.equipament-2 {
+  width: 48%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(33, 62, 121);
+  border-radius: 8px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffffff, #a4c9ff);
+}
+
+.equipo {
+  border: 1px solid rgb(33, 62, 121);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+
+
+.equipo[open] summary {
+  color: rgb(26, 56, 116);
+  text-decoration: underline;
+}
+
+.pistes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px solid rgb(33, 62, 121);
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #ffffff, #a4c9ff);
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pista {
+  width: 95%;
+  border: 1px solid rgb(33, 62, 121);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pista img {
+  width: 50%;
+  border-radius: 6px;
+}
+
+.pista[open] {
+  border-color: rgb(33, 62, 121);
+  background: linear-gradient(to bottom, #ffffff, #a4c9ff);
+}
+
+.pista[open] summary {
+  color: rgb(33, 62, 121);
+  text-decoration: underline;
+}
+
+.taula-dades {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: linear-gradient(to bottom, #ffffff, #a4c9ff);
+  border: 2px solid rgb(33, 62, 121);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.taula-dades th,
+.taula-dades td {
+  border: 1px solid rgb(33, 62, 121);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.taula-dades th {
+  background-color: rgb(33, 62, 121);
+  color: white;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contacto1,
+.contacto2 {
+  width: 48%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid rgb(33, 62, 121);
+  border-radius: 8px;
+  padding: 15px;
+  background: linear-gradient(to bottom, #ffffff, #a4c9ff);
+}
+
+.contacto1 input,
+.contacto2 input,
+.contacto1 textarea,
+.contacto2 textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contacto2 button {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 6px 12px;
+}

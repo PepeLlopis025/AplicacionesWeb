@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Café Simarro - Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Contacto - Café Simarro</h1>
+        <p>Estamos junto al IES Dr. Lluís Simarro, en Xàtiva (València).</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section aria-labelledby="contacto-titulo">
+            <h2 id="contacto-titulo">Formulario de contacto</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required
+                           minlength="2" maxlength="50">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto" required
+                           minlength="3" maxlength="100">
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" required
+                              rows="5" cols="40"
+                              minlength="10"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </section>
+        <section aria-labelledby="mapa-titulo">
+            <h2 id="mapa-titulo">¿Dónde estamos?</h2>
+            <p>
+                Nos encontrarás muy cerca del 
+                <b>IES Dr. Lluís Simarro</b>, en Xàtiva.
+            </p>
+            <b>Avenida De Las Artes Marcianas nº21</b>
+        </section>
+        <aside>
+            <h2>Información adicional</h2>
+            <p><b>Dirección aproximada:</b></p>
+            <p>
+                Avda. Corts Valencianes, s/n<br>
+                46800 Xàtiva (València)
+            </p>
+
+            <p><b>Horario:</b></p>
+            <ul>
+                <li>Lunes a viernes: 7:30 - 20:30</li>
+                <li>Sábados: 8:00 - 14:00</li>
+                <li>Domingos y festivos: cerrado</li>
+            </ul>
+
+            <p><b>Teléfono:</b> 600 123 456</p>
+            <p><b>Email:</b> info@cafesimarro.es</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Café Simarro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

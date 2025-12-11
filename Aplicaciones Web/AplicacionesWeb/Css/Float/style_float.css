@@ -1,0 +1,26 @@
+.caja1 {
+    float: left;   
+    border: 2px solid gray;
+    background-color: #00c3ff;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.caja2 {
+    float: left;
+    background-color: yellow;
+    width: 20%;
+    height: 50px;
+}
+
+.caja3 {
+    float: left;
+    border: 2px solid gray;
+    background-color: red;
+    width: 20%;
+    height: 50px;
+    clear: left;
+}
